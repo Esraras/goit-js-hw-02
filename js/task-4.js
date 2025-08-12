@@ -3,19 +3,19 @@ function getShippingCost(country) {
     switch (country) {
         case 'China':
             price = 100;
-            return `You ordered ${country} droids worth ${price} credits!`;
+            return `Shipping to ${country} will cost ${price} credits!`;
             break;
         case 'Chile':
             price = 250;
-            return `You ordered ${country} droids worth ${price} credits!`;
+            return `Shipping to ${country} will cost ${price} credits!`;
             break;
         case 'Australia':
             price = 170;
-            return `You ordered ${country} droids worth ${price} credits!`;
+            return `Shipping to ${country} will cost ${price} credits!`;
             break;
         case 'Jamaica':
             price = 120;
-            return `You ordered ${country} droids worth ${price} credits!`;
+            return `Shipping to ${country} will cost ${price} credits!`;
             break;
         default:
             return 'Sorry, there is no delivery to your country';
